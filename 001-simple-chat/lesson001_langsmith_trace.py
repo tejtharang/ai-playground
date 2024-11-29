@@ -1,8 +1,8 @@
 """
 Set environment variables
 """
-from utils import set_env_keys
-set_env_keys()
+from utils import env_vars
+env_vars.set_vars()
 
 """
 Langsmith wrapper to enable tracing example
