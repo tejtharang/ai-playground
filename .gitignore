@@ -1,3 +1,5 @@
-../.venv
+venv
 .idea
 **/__pycache__
+py313
+.DS_Store
