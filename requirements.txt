@@ -43,3 +43,5 @@ wheel==0.45.1
 yarl==1.18.0
 
 langchain-openai~=0.2.10
+langgraph~=0.2.53
+langchain-community~=0.3.8
