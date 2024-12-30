@@ -1,6 +1,3 @@
-from utils import env_vars
-env_vars.set_vars()
-
 """
 In my own words:
 

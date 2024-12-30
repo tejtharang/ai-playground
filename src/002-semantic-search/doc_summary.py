@@ -1,10 +1,3 @@
-"""
-Set environment variables
-"""
-from utils import env_vars
-
-env_vars.set_vars()
-
 file_path = "nke-10k-2023.pdf"
 """
 PyPDFLoader is one example of doc loaders. There are a whole bunch of document loaders.

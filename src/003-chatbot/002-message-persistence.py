@@ -2,12 +2,9 @@
 LangGraph comes with built-in message persistence layer. Let's use that
 """
 from langchain_core.messages import HumanMessage
-
-from utils import env_vars
 from langchain_openai import ChatOpenAI
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import START, MessagesState, StateGraph
-env_vars.set_vars()
 model = ChatOpenAI(model="gpt-4o-mini")
 
 def call_model(state: MessagesState):
