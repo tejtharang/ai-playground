@@ -1,10 +1,4 @@
 """
-Set environment variables
-"""
-from utils import env_vars
-env_vars.set_vars()
-
-"""
 Langsmith wrapper to enable tracing example
 """
 import openai

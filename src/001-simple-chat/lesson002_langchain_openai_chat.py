@@ -1,9 +1,4 @@
 """
-Set environment variables
-"""
-from utils import env_vars
-env_vars.set_vars()
-""" 
 Chat model langchain directly writes to langsmith for tracing
 """
 from langchain_openai import ChatOpenAI
